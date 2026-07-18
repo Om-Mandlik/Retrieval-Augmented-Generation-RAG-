@@ -2,7 +2,6 @@ from Retrival_pipeline import rag_retriever
 
 from google import genai
 import os
-from dotenv import load_dotenv
 
 GEMINI_API_KEY="your_api_key_here"
 client = genai.Client(api_key=GEMINI_API_KEY)
